@@ -77,6 +77,8 @@ const TextEditor = ({ value, setValue }) => {
     editor?.commands.setContent(value);
   }, [editor]);
 
+  
+
   return (
     <div>
       <Toolbar editor={editor} />
